@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+hr {
+    margin: 0;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-semibolt {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.outfit-bolt {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-preset-1 {
+    color: #312E2C;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.text-preset-2 {
+    color: #854632;
+    font-size: 28px;
+    line-height: 100%;
+}
+
+.text-preset-3 {
+    color: #7A284E;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.text-preset-4 {
+    color: #5F564D;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #F3E5D7;
+    padding: 125px 0;
+}
+
+ul,
+ol {
+    padding-left: 28px;
+}
+
+li {
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+main {
+    max-width: 736px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 24px;
+}
+
+h1 {
+    margin-bottom: 24px;
+}
+
+section:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+section:last-child p {
+    margin-bottom: 24px;
+}
+
+hr {
+    margin-bottom: 32px;
+    border-color: #E3DDD7;
+}
+
+.bg-pink {
+    background-color: #FFF7FB;
+    padding: 28px;
+    border-radius: 12px;
+}
+
+.bg-pink h2 {
+    margin-bottom: 16px;
+}
+
+.bg-pink li::marker {
+    color: #7A284E;
+}
+
+section li::marker {
+    color: #854632;
+}
+
+table {
+    /* background-color: red; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    /* background-color: #7A284E; */
+    text-align: left;
+    padding-left: 32px;
+
+}
+
+td {
+    color: #854632;
+}
+
+th,
+td {
+    width: 50%;
+    padding-top: 12px;
+}
+
+tr:not(:last-child) th,
+tr:not(:last-child) td {
+    border-bottom: 1px solid #E3DDD7;
+    padding-bottom: 12px;
+}
